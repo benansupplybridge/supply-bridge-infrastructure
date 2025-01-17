@@ -1,0 +1,35 @@
+supply-bridge-infrastructure/
+├── environments/
+│   ├── test/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── terraform.tfvars
+│   ├── preprod/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── terraform.tfvars
+│   └── prod/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── terraform.tfvars
+├── modules/
+│   ├── postgresql/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── cosmos-db/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   ├── key-vault/
+│   │   ├── main.tf
+│   │   ├── variables.tf
+│   │   └── outputs.tf
+│   └── networking/
+│       ├── main.tf
+│       ├── variables.tf
+│       └── outputs.tf
+├── docker/
+│   ├── docker-compose.yml
+│   └── Dockerfile
+└── README.md 

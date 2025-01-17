@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:11
+    environment:
+      POSTGRES_USER: psqladmin
+      POSTGRES_PASSWORD: local_password_only
+      POSTGRES_DB: supply_bridge
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data: 

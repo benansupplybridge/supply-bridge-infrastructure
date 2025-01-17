@@ -1,0 +1,13 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Secrets
+**/secrets.tfvars
+*.tfvars.json 
+/.idea/dataSources.xml
+/environments/preprod/tfplan
+/environments/test/tfplan
+/environments/prod/tfplan
