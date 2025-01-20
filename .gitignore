@@ -7,7 +7,7 @@
 # Secrets
 **/secrets.tfvars
 *.tfvars.json 
-/.idea/dataSources.xml
+/.idea/
 /environments/preprod/tfplan
 /environments/test/tfplan
 /environments/prod/tfplan
